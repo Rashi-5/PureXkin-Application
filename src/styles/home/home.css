@@ -1,0 +1,222 @@
+#firstSection {
+    width: 46vw;
+    height: 100vh;
+    margin-top: 55px;
+    position: fixed;
+    padding: 3vh 2vw 2vh 2vw;
+    background-color: #D0F2EE;
+}
+
+#secondSection {
+    width: 46vw;
+    margin-top: 55px;
+    color: #fff;
+    padding: 1vh 2vw 2vh 2vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-color: #413A5D;
+}
+
+#uploadBtn {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: #9B66C0;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 30vw;
+    min-width: 300px;
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+  }
+
+#uploadBtn:hover {
+    background-color: #ce91ee;
+    color: white;
+    transform: translateY(-2px);
+}
+
+input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+#classifyBtn {
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: #9B66C0;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    width: 20vw;
+    min-width: 300px;
+    padding: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+#classifyBtn:hover {
+    background-color: #ce91ee;
+    transform: translateY(-2px);
+}
+
+#nextBtn {
+    display: block;
+    margin: auto;
+    margin-top: 6vh;
+    background-color: #9867AF;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 20vw;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition-duration: 0.4s;
+    border-radius: 5px
+}
+
+#nextBtn:hover {
+    background-color: #ce91ee;
+    transform: translateY(-2px);
+}
+
+#uploadImage {
+    display: block;
+    margin: auto;
+    width: 22vw;
+    border-radius: 2vw;
+    margin-top: 10vh;
+    height: auto;
+}
+
+.imageContainer {
+    height: 22vw;
+}
+
+h1 {
+    color: #E49E9C;
+    font-size: 3rem;
+}
+
+.classificationStatus {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.subClassification {
+    position: relative;
+    color: #fff;
+    border-radius: 1vw;
+    font-size: 1rem;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: justify;
+    background-color: #E49E9C;
+    background-image: linear-gradient(-170deg, #8076A5 0%, #9C51B5 50%, #EADBD9 100%);
+    padding: 3vw;
+    margin: 6vh 2vw;
+}
+
+.classification #healthyImg {
+    width: 30vw;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 800px) {
+    #firstSection, #secondSection {
+        width: 96vw;
+        height: auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 5vh;
+    }
+
+    #secondSection {
+        min-height: 50vh;
+        margin-top: 0px;
+    }
+
+    #uploadBtn {
+        width: 50vw;
+        font-size: 1rem;
+        margin-top: 2vh;
+        padding: 15px;
+        min-width: 200px;
+    }
+
+    #nextBtn {
+        width: 70vw;
+        font-size: 1.2rem;
+        padding: 15px;
+        margin-bottom: 5vh;
+    }
+
+    #classifyBtn {
+        width: 40vw;
+        font-size: 1rem;
+        padding: 15px;
+        min-width: 220px;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
+    }
+
+    #uploadImage {
+        width: 50vw;
+        height: auto;
+        margin-top: 5vh;
+        max-height: 48vw;
+    }
+
+    .imageContainer {
+        height: 50vw;
+    }
+
+    .classification{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .classificationStatus {
+        font-size: 0.9rem;
+        line-height: 35px;
+    }
+
+    .subClassification {
+        font-size: 0.9rem;
+        line-height: 25px;
+        border-radius: 5vw;
+        font-weight: 600;
+        padding: 6vw;
+        margin: 10vw 1vw;
+    }
+
+    .classification #healthyImg {
+        width: 70vw;
+        margin-top: 50px;
+        margin-left: 10px;
+    }    
+    
+}

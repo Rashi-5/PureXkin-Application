@@ -1,0 +1,141 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    align-items: center;
+    background-color: black;
+    padding: 20px 0;
+}
+
+nav #logo{
+    width: 11vw;
+    min-width: 130px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    padding-left: 2vw;
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2vw;
+}
+
+#navbar li a{
+    list-style: none;
+    padding: 0 25px;
+    position: relative;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #ba6de4;
+}
+
+#mobile{
+    display: none;
+}
+
+nav #mobile #menuicon, nav #mobile #closeicon {
+    position: fixed;
+    right: 15vw;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar{
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 30px;
+        right: -310px;
+        width: 300px;
+        height: 100vh;
+        background: #000000ee;
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #navbar.active {
+        right: 0;
+        box-shadow: 0 40px 60px #000;
+    }
+
+    #navbar li{
+        margin-bottom: 25px;
+    }
+
+    #mobile{
+        display: block;
+    }
+
+    #mobile i{
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #navbar li{
+        list-style: none;
+        padding: 0 18px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #fff;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav #logo{
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #navbar li{
+        list-style: none;
+        padding: 0 10px;
+        position: relative;
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        font-size: 1.0rem;
+        font-weight: 600;
+        color: #fff;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav #logo{
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    nav #logo{
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    nav #logo{
+        width: 22vw;
+    }
+}
+
