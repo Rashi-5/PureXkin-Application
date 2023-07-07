@@ -1,0 +1,128 @@
+.summeryContainer {
+    position: relative;
+    background: -webkit-linear-gradient(315deg, #3a3b6c 50%, #736785 100%);
+    margin: auto;
+    color: #fff;
+    width: 80vw;
+    min-height: 78vh;
+    padding: 10px 5vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.vitaminDeficienciesList {
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.heading {
+    margin-left: 0px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.summeryContainer #note {
+    margin: auto;
+    padding: 2vh 2vw;
+    color: #ffffff;
+    background-color: #fa9090;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.summeryContainer .results {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+    padding-bottom: 50px;
+}
+
+.summeryContainer .results .text{
+    font-size: 1rem;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.summeryContainer .resultsDesc {
+    font-size: 1rem;
+    margin: auto;
+    font-weight: 500;
+    text-align: justify;
+    padding: 30px 2vw;
+    border-radius: 10px;
+}
+
+.summeryContainer .heading-green {
+    background: -webkit-linear-gradient(135deg, #11998e 0%, #38ef7d 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summeryContainer .heading-yellow {
+    background: -webkit-linear-gradient(135deg, #EA9A30 0%, #DEA100 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summeryContainer .heading-red {
+    background: -webkit-linear-gradient(135deg, #d31027 0%, #ea384d 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summeryContainer .heading-purple {
+    background: -webkit-linear-gradient(319deg, #dbf26e 0%, #61fa74 37%, #1cfdd6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summeryContainer .heading-orange {
+    background: -webkit-linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summeryContainer #nextBtn{
+    height: 80px;
+    width: 25vw;
+    font-size: 1.4rem;
+    color: #000;
+    min-width: 300px;
+    margin-top: 20px ;
+}
+
+@media screen and (max-width: 800px) {
+    .summeryContainer {
+        min-height: 80vh;
+        height: fit-content;
+        width: 90vw;
+        min-height: 100vh;
+    }
+
+    .summeryContainer .results {
+        font-size: 0.8rem;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .summeryContainer h1 {
+        font-size: 2rem;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 2vw;
+    }
+
+    .summeryContainer h2 {
+        padding-left: 2vw;
+        font-size: 1.5rem;
+    }
+
+    .btnContainer {
+        position: relative;
+        height: 200px;
+    }
+}

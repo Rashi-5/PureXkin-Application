@@ -1,0 +1,212 @@
+    [{
+        "categoryId": 0,
+        "category": "Skin and Hair",
+        "questions": [
+            {
+            "questionId": 0,
+            "question": "Rough and bumpy skin"
+            },
+            {
+            "questionId": 1,
+            "question": "Dry and damaged skin"
+            },
+            {
+            "questionId": 2,
+            "question": "Skin anomalies"
+            },
+            {
+            "questionId": 3,
+            "question": "Hair loss"
+            },
+            {
+            "questionId": 4,
+            "question": "Pale skin"
+            },
+            {
+            "questionId": 5,
+            "question": "Wrinkles"
+            },
+            {
+            "questionId": 6,
+            "question": "Thin hair"
+            },
+            {
+            "questionId": 7,
+            "question": "Increased cellulites"
+            },
+            {
+            "questionId": 8,
+            "question": "Brittle nails"
+            },
+            {
+            "questionId": 9,
+            "question": "Dry eyes"
+            },
+            {
+            "questionId": 10,
+            "question": "Dandruff"
+            }
+        ]
+    },
+    {
+        "categoryId": 1,
+        "category": "Health problems",
+        "questions": [
+            {
+            "questionId": 0,
+            "question": "Dizziness"
+            },
+            {
+            "questionId": 1,
+            "question": "Usual tiredness"
+            },
+            {
+            "questionId": 2,
+            "question": "Painful swollen joints"
+            },
+            {
+            "questionId": 3,
+            "question": "Cold hands and feet"
+            },
+            {
+            "questionId": 4,
+            "question": "Eyes problem"
+            },
+            {
+            "questionId": 5,
+            "question": "Night blindness"
+            },
+            {
+            "questionId": 6,
+            "question": "Slow injury / muscle recovery"
+            },
+            {
+            "questionId": 7,
+            "question": "Poor healing of wounds"
+            },
+            {
+            "questionId": 8,
+            "question": "Poor memory"
+            },
+            {
+            "questionId": 9,
+            "question": "Nausea"
+            },
+            {
+            "questionId": 10,
+            "question": "Yellow eye skin"
+            }
+        ] 
+    },
+    {
+        "categoryId": 2,
+        "category": "Sudden Changes",
+        "questions": [
+            {
+            "questionId": 0,
+            "question": "Frequent thought and chest infection"
+            },
+            {
+            "questionId": 1,
+            "question": "Trouble concentrating"
+            },
+            {
+            "questionId": 2,
+            "question": "Sudden weight loss"
+            },
+            {
+            "questionId": 3,
+            "question": "Loss of appetite"
+            },
+            {
+            "questionId": 4,
+            "question": "Easy bruises"
+            },
+            {
+            "questionId": 5,
+            "question": "Easily get infected"
+            },
+            {
+            "questionId": 6,
+            "question": "Lack of taste"
+            },
+            {
+            "questionId": 7,
+            "question": "Frequently Irritable"
+            },
+            {
+            "questionId": 8,
+            "question": "Blood in urine or vomit"
+            },
+            {
+            "questionId": 9,
+            "question": "Bleeding gum and teeth"
+            },
+            {
+            "questionId": 10,
+            "question": "Excessive bleeding from wounds"
+            }
+        ] 
+    },
+    {
+        "categoryId": 3,
+        "category": "Common Habits",
+        "questions": [
+            {
+            "questionId": 0,
+            "question": "What is your age category",
+            "answers": ["15 - 30", "30 - 50", "50 - 70"]
+            },
+            {
+            "questionId": 1,
+            "question": "How much water intake do you take within a day",
+            "answers": ["1500 - 2000ml", "1000 - 1500ml","500 - 1000ml" ]
+            },
+            {
+            "questionId": 2,
+            "question": "How often do you eat fruits / eat healthy",
+            "answers": ["daily", "once a week", "once a month"]
+            },
+            {
+            "questionId": 3,
+            "question": "What is your skin type",
+            "answers": ["normal / combination", "oily skin", "dry skin"]
+            },
+            {
+            "questionId": 4,
+            "question": "Do often do you extercise",
+            "answers": ["always", "sometimes", "rarely"]
+            },
+            {
+            "questionId": 5,
+            "question": "How do you rate your stress level",
+            "answers": ["0 - 50", "50 - 75", "75 - 100"]
+            },
+            {
+            "questionId": 6,
+            "question": "Do you take alcohol or smoke",
+            "answers": ["never", "once in a while", "regularly"]
+            },
+            {
+            "questionId": 7,
+            "question": "What is you BMI value",
+            "answers": ["healthy", "underweight", "overweight"]
+            },
+            {
+            "questionId": 8,
+            "question": "Are you suffering from chronic diseases",
+            "answers": ["No", "not as far as I know", "Yes"]
+            },
+            {
+            "questionId": 9,
+            "question": "Were you ever had hormone issues",
+            "answers": ["never", "rarely", "regularly"]
+            },
+            {
+            "questionId": 10,
+            "question": "To what extend the scars has been spread",
+            "answers": ["can cover with makeup easily", "can't cover with make up but invisible when the skin stretches", "easily visible even from distance greater than 50cm"]
+            }
+        ] 
+    }
+]

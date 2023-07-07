@@ -1,0 +1,124 @@
+.locations {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    position: absolute;
+    background-color: #D0F2EE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.location-container {
+    position: flex;
+    display: inline-block;
+    background-color: #413A5D;
+    width: 31vw;
+    min-height: 720px;
+    margin: 0.95vw;
+    border-radius: 1vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.location-container .googleMap {
+    color: #fff;
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.location-container .details {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    line-height: 30px;
+    row-gap: 30px;
+    color: #fff;
+    font-size: 1rem;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.details div {
+    display: flex;
+    align-items: center;
+  }
+
+.location-container .details  h1 {
+    line-height: 40px;
+    height: 80px;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .location-container {
+        width: 30.5vw;
+        min-height: 660px;
+        margin-right: 0.9vw;
+        margin-left: 0.9vw;
+    }
+
+    .location-container .details {
+        height: 310px;
+    }
+
+    .location-container .details h1 {
+        height: 100px;
+        font-size: 1.5rem;
+    }
+
+    .location-container .details {
+        font-size: 0.8rem;
+        row-gap: 15px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .location-container {
+        width: 45vw;
+        min-height: 720px;
+        margin-right: 1.9vw;
+        margin-left: 1.9vw;
+        margin-bottom: 30px;
+    }
+
+    .location-container .googleMap {
+        height: 400px;
+    }
+
+    .location-container .details h1 {
+        line-height: 38px;
+    }
+
+    .location-container .details {
+        height: 280px;
+        font-size: 0.8rem;
+        row-gap: 15px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .location-container {
+        width: 90vw;
+        height: 550px;
+        margin-right: 4.5vw;
+        margin-left: 4.5vw;
+        border-radius: 5vw;
+    }
+
+    .location-container .googleMap {
+        height: 400px;
+    }
+
+    .location-container .details {
+        height: 250px;
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+}

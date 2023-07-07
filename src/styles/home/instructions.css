@@ -1,0 +1,49 @@
+.instructions {
+    background-color: #413A5D;
+    padding: 2vh 2vw 2vh 2vw;
+    height: 100vh;
+}
+
+.instructions ol {
+    font-size: 1.2rem;
+    background: -webkit-linear-gradient(180deg, #87F6F9 0%, #CA92B4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.instructions ol li {
+    padding-bottom: 30px;
+    line-height: 28px;
+}
+
+.instructions h1 {
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .instructions ol {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .instructions {
+        height: auto;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-left: 5vw;
+    }
+
+    .instructions ol {
+        font-size: 1rem;
+        padding-right: 4vw;
+        line-height: 25px;
+    }
+
+    .instructions ol li {
+        padding-bottom: 35px;
+    }
+}
